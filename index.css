@@ -1,0 +1,18 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  background-color: royalblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 3px dotted red;
+}
