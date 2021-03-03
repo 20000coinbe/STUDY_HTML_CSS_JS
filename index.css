@@ -1,13 +1,11 @@
-body {
-  box-sizing: border-box;
-}
-
 .container {
   width: 400px;
   height: 600px;
   background-color: royalblue;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-itmes: center;
 }
 
 .container .item {
@@ -15,4 +13,9 @@ body {
   height: 100px;
   background-color: orange;
   border: 3px dotted red;
+  flex-grow: 1;
+}
+
+.container .item:nth-child(3) {
+  flex-grow: 2;
 }
