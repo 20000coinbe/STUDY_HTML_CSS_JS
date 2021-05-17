@@ -1,0 +1,8 @@
+$color: royalblue;
+
+.container {
+  // 중첩사용
+  h1 {
+    color: $color;
+  }
+}
