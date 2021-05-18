@@ -1,10 +1,8 @@
 # STUDY_HTML_CSS_JS_SCSS
 
-HTML/CSS/JS
+## HTML/CSS/JS
 
-2021.03.03 : OverWatch 영웅선택화면 만들어보기
-
-- 향후계획 .heroes에 <span>태그에 영웅명 추가 + SCSS 익혀서 :nth-child(n) 부분 완화
+2021.05.18 : SCSS공부 중
 
 ------ 메모장 ------
 
@@ -47,7 +45,8 @@ HTML/CSS/JS
 - 중첩과 변수기능으로 편리
 - SASS와 SCSS 2가지 문법
   - 호환성문제로 SCSS가 최근에 개발('{}'와 ';'을 통해 문법구분)
-- '=': mixin, '+': include
+- '=': mixin,
+- '+': include
 
 ```scss
 /*
