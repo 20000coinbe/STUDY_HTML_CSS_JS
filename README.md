@@ -48,6 +48,12 @@
 - '=': mixin,
 - '+': include
 
+---
+
+### Basic
+
+---
+
 ```scss
 /*
   1. parcel-bundler 설치
@@ -62,6 +68,27 @@ $color: royalblue;
 .container {
   h1 {
     color: $color;
+    // 주석은 javascript와 동일하게 '//'과 '/**/'사용 가능
+    // '//'의 경우는 컴파일됬을 떄 CSS에서는 나타나지 않는다(/**/를 사용하면 그대로 남겨진다)
+  }
+  ul {
+    li {
+      font-size: 45px; // 원래대로라면 .container ul li { font-size: 45px; }
+      .name {
+        color: red; // .container ul li .name { color: red; }
+      }
+      .age {
+        color: green;
+      }
+    }
+  } // 중첩(Nesting)을 통해서 불필요하게 사용되는 상위 선택자를 줄일 수 있다!!!
+  > h2 {
+    // 자식선택자의 경우 '> '로 표기
+    color: yellow;
   }
 }
 ```
+
+---
+
+###
