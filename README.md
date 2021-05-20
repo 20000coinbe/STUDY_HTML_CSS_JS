@@ -91,4 +91,32 @@ $color: royalblue;
 
 ---
 
-###
+### 상위(부모) 선택자 참조, 중첩된 속성
+
+```scss
+// 상위선택자(&)
+.btn {
+  li {
+    &:last-child {
+      // li:last-child와 동일
+      color: red; // li == &
+    }
+  }
+}
+
+// 중첩된 속성 : 콜론과 세미콜론을 이용
+.box {
+  font: {
+    weight: bold;
+    size: 10px;
+    family: sans-serif;
+  }
+  /* 동일표현
+    font-weight: bold;
+    font-size: 10px;
+    font-family: sans-serif;
+
+    네임스페이스 : 이름을 통해 구분 가능한 범위를   만들어내는 것으로 일종의 유효범위   지정하는 방법
+  */
+}
+```
