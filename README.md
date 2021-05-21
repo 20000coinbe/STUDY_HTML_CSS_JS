@@ -120,3 +120,11 @@ $color: royalblue;
   */
 }
 ```
+
+---
+
+### 변수
+
+```scss
+$color: green;
+```
