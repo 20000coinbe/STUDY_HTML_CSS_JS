@@ -127,4 +127,10 @@ $color: royalblue;
 
 ```scss
 $color: green;
+
+.container {
+  h1 {
+    color: $color;
+  }
+}
 ```
